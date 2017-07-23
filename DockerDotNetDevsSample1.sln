@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerDotNetDevsSample1", "src\DockerDotNetDevsSample1\DockerDotNetDevsSample1.csproj", "{51D75AC1-A1FA-4E6A-A1D1-C7BC1476BD76}"
 EndProject
