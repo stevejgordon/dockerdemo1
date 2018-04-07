@@ -1,15 +1,15 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DockerDotNetDevsSample1.Controllers
+namespace DockerDotNetDevsDemo1.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("")]
     public class ValuesController : Controller
     {
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new[] { "value1", "value2" };
         }
     }
 }

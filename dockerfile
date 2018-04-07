@@ -1,11 +1,9 @@
-FROM microsoft/aspnetcore-build:1.1
+FROM microsoft/aspnetcore-build:2.0
 
 WORKDIR /app
 
-COPY . .
-
-RUN dotnet restore 
+COPY ./src/DockerDotNetDevsDemo1 .
 
 RUN dotnet build
 
-ENTRYPOINT ["dotnet", "run"]
+ENTRYPOINT ["dotnet", "run", "--no-launch-profile"]
