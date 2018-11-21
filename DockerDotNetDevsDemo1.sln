@@ -5,10 +5,10 @@ VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{E14CFBAA-EDD8-42F9-8F73-B9A055A37A1F}"
 	ProjectSection(SolutionItems) = preProject
-		dockerfile = dockerfile
+		Dockerfile = Dockerfile
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerDotNetDevsDemo1", "src\DockerDotNetDevsDemo1\DockerDotNetDevsDemo1.csproj", "{24C27846-9B98-4376-B935-7EADDA0212E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerDotNetDevsDemo1", "src\Demo1\DockerDotNetDevsDemo1.csproj", "{24C27846-9B98-4376-B935-7EADDA0212E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

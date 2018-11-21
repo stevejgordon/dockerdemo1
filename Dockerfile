@@ -2,7 +2,7 @@ FROM microsoft/dotnet:2.1-sdk
 
 WORKDIR /app
 
-COPY ./src/DockerDotNetDevsDemo1 .
+COPY ./src/Demo1 .
 
 RUN dotnet build
 
